@@ -1,0 +1,24 @@
+.passenger-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .passenger-table th, .passenger-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .passenger-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .passenger-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .passenger-table tr:hover {
+    background-color: #ddd;
+  }
+  

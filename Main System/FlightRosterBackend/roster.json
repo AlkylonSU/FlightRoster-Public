@@ -1,0 +1,309 @@
+{
+    "flight_info": [
+        {
+            "flight_number": "ABC123",
+            "flight_date": "2024-05-05T08:00:00Z",
+            "flight_duration": "00:00",
+            "flight_distance": 1200.5,
+            "source_country": "USA",
+            "source_city": "New York",
+            "source_airport_name": "JFK International Airport",
+            "source_airport_code": "JFK",
+            "destination_country": "UK",
+            "destination_city": "London",
+            "destination_airport_name": "Heathrow Airport",
+            "destination_airport_code": "LHR",
+            "vehicle_type": {
+                "id": 1,
+                "vehicle_type": "Airbus A320",
+                "number_of_seats": 180,
+                "seating_plan": "3-3",
+                "crew_limit": 2,
+                "passenger_limit": 150
+            },
+            "shared_flight": false
+        }
+    ],
+    "crew": [
+        {
+            "name": "John Doe",
+            "type": "cabin",
+            "seniority": "chief",
+            "attendant_id": 1,
+            "age": 35,
+            "gender": "Male",
+            "nationality": "USA",
+            "known_languages": "English, Spanish",
+            "attendant_type": "chief",
+            "vehicle_restrictions": "Boeing 737, Airbus A320",
+            "dish_recipes": []
+        },
+        {
+            "name": "Captain Sophia Davis",
+            "type": "cabin",
+            "seniority": "chief",
+            "attendant_id": 11,
+            "age": 40,
+            "gender": "Female",
+            "nationality": "Canada",
+            "known_languages": "English, French",
+            "attendant_type": "chief",
+            "vehicle_restrictions": "Boeing 787, Airbus A380",
+            "dish_recipes": []
+        },
+        {
+            "name": "Attendant Noah Robinson",
+            "type": "cabin",
+            "seniority": "regular",
+            "attendant_id": 17,
+            "age": 29,
+            "gender": "Male",
+            "nationality": "Canada",
+            "known_languages": "English, French",
+            "attendant_type": "regular",
+            "vehicle_restrictions": "Boeing 737, Airbus A320",
+            "dish_recipes": []
+        },
+        {
+            "name": "Jane Smith",
+            "type": "cabin",
+            "seniority": "regular",
+            "attendant_id": 2,
+            "age": 28,
+            "gender": "Female",
+            "nationality": "Canada",
+            "known_languages": "English, French",
+            "attendant_type": "regular",
+            "vehicle_restrictions": "Boeing 747, Airbus A380",
+            "dish_recipes": []
+        },
+        {
+            "name": "Sara Kim",
+            "type": "cabin",
+            "seniority": "regular",
+            "attendant_id": 8,
+            "age": 33,
+            "gender": "Female",
+            "nationality": "South Korea",
+            "known_languages": "Korean, English",
+            "attendant_type": "regular",
+            "vehicle_restrictions": "Boeing 737, Airbus A380",
+            "dish_recipes": []
+        },
+        {
+            "name": "Attendant Emma Wilson",
+            "type": "cabin",
+            "seniority": "regular",
+            "attendant_id": 14,
+            "age": 28,
+            "gender": "Female",
+            "nationality": "USA",
+            "known_languages": "English, Spanish",
+            "attendant_type": "regular",
+            "vehicle_restrictions": "Boeing 737, Airbus A320",
+            "dish_recipes": []
+        },
+        {
+            "name": "Attendant Liam Martinez",
+            "type": "cabin",
+            "seniority": "regular",
+            "attendant_id": 15,
+            "age": 32,
+            "gender": "Male",
+            "nationality": "Mexico",
+            "known_languages": "Spanish, English",
+            "attendant_type": "regular",
+            "vehicle_restrictions": "Boeing 747, Airbus A380",
+            "dish_recipes": []
+        },
+        {
+            "name": "Attendant Isabella Clark",
+            "type": "cabin",
+            "seniority": "regular",
+            "attendant_id": 18,
+            "age": 27,
+            "gender": "Female",
+            "nationality": "Australia",
+            "known_languages": "English",
+            "attendant_type": "regular",
+            "vehicle_restrictions": "Boeing 777, Airbus A380",
+            "dish_recipes": []
+        },
+        {
+            "name": "Chef Benjamin Hernandez",
+            "type": "cabin",
+            "seniority": "chef",
+            "attendant_id": 21,
+            "age": 36,
+            "gender": "Male",
+            "nationality": "Argentina",
+            "known_languages": "Spanish, English",
+            "attendant_type": "chef",
+            "vehicle_restrictions": "Boeing 787, Airbus A330"
+        },
+        {
+            "name": "Chef James Anderson",
+            "type": "cabin",
+            "seniority": "chef",
+            "attendant_id": 23,
+            "age": 37,
+            "gender": "Male",
+            "nationality": "USA",
+            "known_languages": "English",
+            "attendant_type": "chef",
+            "vehicle_restrictions": "Boeing 777, Airbus A330"
+        },
+        {
+            "name": "Captain Anna Ivanova",
+            "type": "flight",
+            "seniority": "senior",
+            "pilot_id": 10,
+            "age": 40,
+            "gender": "Female",
+            "nationality": "Russia",
+            "known_languages": "Russian, English",
+            "vehicle_restriction": "Boeing 747",
+            "allowed_range": 5500,
+            "seniority_level": "senior"
+        },
+        {
+            "name": "First Officer Jane Williams",
+            "type": "flight",
+            "seniority": "junior",
+            "pilot_id": 2,
+            "age": 35,
+            "gender": "Female",
+            "nationality": "Canada",
+            "known_languages": "English, French",
+            "vehicle_restriction": "Boeing 737",
+            "allowed_range": 3000,
+            "seniority_level": "junior"
+        },
+        {
+            "name": "Trainee Pilot Emily Brown",
+            "type": "flight",
+            "seniority": "trainee",
+            "pilot_id": 6,
+            "age": 27,
+            "gender": "Female",
+            "nationality": "UK",
+            "known_languages": "English, German",
+            "vehicle_restriction": "Airbus A320",
+            "allowed_range": 2000,
+            "seniority_level": "trainee"
+        },
+        {
+            "name": "Trainee Pilot Rakesh Singh",
+            "type": "flight",
+            "seniority": "trainee",
+            "pilot_id": 9,
+            "age": 25,
+            "gender": "Male",
+            "nationality": "India",
+            "known_languages": "Hindi, English",
+            "vehicle_restriction": "Boeing 737",
+            "allowed_range": 2000,
+            "seniority_level": "trainee"
+        }
+    ],
+    "passengers": [
+        {
+            "passenger_id": 1,
+            "passenger_name": "John Doe",
+            "age": 30,
+            "gender": "Male",
+            "nationality": "American",
+            "seat_type": "Economy",
+            "seat_number": "1A",
+            "children": [
+                {
+                    "child_id": 1,
+                    "child_name": "Emily Doe",
+                    "age": 5,
+                    "gender": "Female",
+                    "nationality": "American",
+                    "parent": 1
+                },
+                {
+                    "child_id": 2,
+                    "child_name": "Michael Doe",
+                    "age": 3,
+                    "gender": "Male",
+                    "nationality": "American",
+                    "parent": 1
+                }
+            ]
+        },
+        {
+            "passenger_id": 2,
+            "passenger_name": "Jane Smith",
+            "age": 25,
+            "gender": "Female",
+            "nationality": "British",
+            "seat_type": "Business",
+            "seat_number": "1B",
+            "children": [
+                {
+                    "child_id": 3,
+                    "child_name": "Sophia Smith",
+                    "age": 4,
+                    "gender": "Female",
+                    "nationality": "British",
+                    "parent": 2
+                },
+                {
+                    "child_id": 4,
+                    "child_name": "William Smith",
+                    "age": 2,
+                    "gender": "Male",
+                    "nationality": "British",
+                    "parent": 2
+                }
+            ]
+        },
+        {
+            "passenger_id": 7,
+            "passenger_name": "Jason Todd",
+            "age": 28,
+            "gender": "Male",
+            "nationality": "Australian",
+            "seat_type": "Business",
+            "seat_number": "2A",
+            "children": []
+        }
+    ],
+    "menu": [
+        {
+            "id": 17,
+            "recipe_name": "Empanadas"
+        },
+        {
+            "id": 18,
+            "recipe_name": "Chorip\u00e1n"
+        },
+        {
+            "id": 19,
+            "recipe_name": "Asado"
+        },
+        {
+            "id": 20,
+            "recipe_name": "Milanesa"
+        },
+        {
+            "id": 25,
+            "recipe_name": "Clam Chowder"
+        },
+        {
+            "id": 26,
+            "recipe_name": "BBQ Ribs"
+        },
+        {
+            "id": 27,
+            "recipe_name": "Mac and Cheese"
+        },
+        {
+            "id": 28,
+            "recipe_name": "Fried Chicken"
+        }
+    ]
+}
